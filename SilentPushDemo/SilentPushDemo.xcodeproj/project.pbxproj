@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9BB04D417F06F4B002EFE31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9BB04D317F06F4B002EFE31 /* Foundation.framework */; };
+		D9BB04D617F06F4B002EFE31 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9BB04D517F06F4B002EFE31 /* CoreGraphics.framework */; };
+		D9BB04D817F06F4C002EFE31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9BB04D717F06F4C002EFE31 /* UIKit.framework */; };
+		D9BB04DE17F06F4C002EFE31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9BB04DC17F06F4C002EFE31 /* InfoPlist.strings */; };
+		D9BB04E017F06F4C002EFE31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BB04DF17F06F4C002EFE31 /* main.m */; };
+		D9BB04E417F06F4C002EFE31 /* SPDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BB04E317F06F4C002EFE31 /* SPDAppDelegate.m */; };
+		D9BB04E717F06F4C002EFE31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9BB04E517F06F4C002EFE31 /* Main.storyboard */; };
+		D9BB04EA17F06F4C002EFE31 /* SPDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BB04E917F06F4C002EFE31 /* SPDViewController.m */; };
+		D9BB04EC17F06F4C002EFE31 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9BB04EB17F06F4C002EFE31 /* Images.xcassets */; };
+		D9BB04F317F06F4C002EFE31 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9BB04F217F06F4C002EFE31 /* XCTest.framework */; };
+		D9BB04F417F06F4C002EFE31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9BB04D317F06F4B002EFE31 /* Foundation.framework */; };
+		D9BB04F517F06F4C002EFE31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9BB04D717F06F4C002EFE31 /* UIKit.framework */; };
+		D9BB054C17F0970E002EFE31 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9BB054B17F0970E002EFE31 /* AudioToolbox.framework */; };
+		D9BB054E17F09714002EFE31 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9BB054D17F09714002EFE31 /* CFNetwork.framework */; };
+		D9BB055017F09721002EFE31 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9BB054F17F09721002EFE31 /* CoreLocation.framework */; };
+		D9BB055217F09727002EFE31 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D9BB055117F09727002EFE31 /* libz.1.1.3.dylib */; };
+		D9BB055417F0972B002EFE31 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9BB055317F0972B002EFE31 /* MobileCoreServices.framework */; };
+		D9BB055617F0972F002EFE31 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9BB055517F0972F002EFE31 /* QuartzCore.framework */; };
+		D9BB055817F09733002EFE31 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9BB055717F09733002EFE31 /* Security.framework */; };
+		D9BB055A17F09737002EFE31 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9BB055917F09737002EFE31 /* StoreKit.framework */; };
+		D9BB055C17F09740002EFE31 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9BB055B17F09740002EFE31 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9BB04F617F06F4C002EFE31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9BB04C817F06F4B002EFE31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9BB04CF17F06F4B002EFE31;
+			remoteInfo = SilentPushDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9BB04D017F06F4B002EFE31 /* SilentPushDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SilentPushDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9BB04D317F06F4B002EFE31 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D9BB04D517F06F4B002EFE31 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D9BB04D717F06F4C002EFE31 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D9BB04DB17F06F4C002EFE31 /* SilentPushDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SilentPushDemo-Info.plist"; sourceTree = "<group>"; };
+		D9BB04DD17F06F4C002EFE31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9BB04DF17F06F4C002EFE31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9BB04E117F06F4C002EFE31 /* SilentPushDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SilentPushDemo-Prefix.pch"; sourceTree = "<group>"; };
+		D9BB04E217F06F4C002EFE31 /* SPDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPDAppDelegate.h; sourceTree = "<group>"; };
+		D9BB04E317F06F4C002EFE31 /* SPDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPDAppDelegate.m; sourceTree = "<group>"; };
+		D9BB04E617F06F4C002EFE31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9BB04E817F06F4C002EFE31 /* SPDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPDViewController.h; sourceTree = "<group>"; };
+		D9BB04E917F06F4C002EFE31 /* SPDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPDViewController.m; sourceTree = "<group>"; };
+		D9BB04EB17F06F4C002EFE31 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D9BB04F117F06F4C002EFE31 /* SilentPushDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SilentPushDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9BB04F217F06F4C002EFE31 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D9BB054B17F0970E002EFE31 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D9BB054D17F09714002EFE31 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		D9BB054F17F09721002EFE31 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D9BB055117F09727002EFE31 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		D9BB055317F0972B002EFE31 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		D9BB055517F0972F002EFE31 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D9BB055717F09733002EFE31 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D9BB055917F09737002EFE31 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		D9BB055B17F09740002EFE31 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9BB04CD17F06F4B002EFE31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9BB055C17F09740002EFE31 /* SystemConfiguration.framework in Frameworks */,
+				D9BB055A17F09737002EFE31 /* StoreKit.framework in Frameworks */,
+				D9BB055817F09733002EFE31 /* Security.framework in Frameworks */,
+				D9BB055617F0972F002EFE31 /* QuartzCore.framework in Frameworks */,
+				D9BB055417F0972B002EFE31 /* MobileCoreServices.framework in Frameworks */,
+				D9BB055217F09727002EFE31 /* libz.1.1.3.dylib in Frameworks */,
+				D9BB055017F09721002EFE31 /* CoreLocation.framework in Frameworks */,
+				D9BB04D617F06F4B002EFE31 /* CoreGraphics.framework in Frameworks */,
+				D9BB054E17F09714002EFE31 /* CFNetwork.framework in Frameworks */,
+				D9BB054C17F0970E002EFE31 /* AudioToolbox.framework in Frameworks */,
+				D9BB04D817F06F4C002EFE31 /* UIKit.framework in Frameworks */,
+				D9BB04D417F06F4B002EFE31 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9BB04EE17F06F4C002EFE31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9BB04F317F06F4C002EFE31 /* XCTest.framework in Frameworks */,
+				D9BB04F517F06F4C002EFE31 /* UIKit.framework in Frameworks */,
+				D9BB04F417F06F4C002EFE31 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9BB04C717F06F4B002EFE31 = {
+			isa = PBXGroup;
+			children = (
+				D9BB04D917F06F4C002EFE31 /* SilentPushDemo */,
+				D9BB04D217F06F4B002EFE31 /* Frameworks */,
+				D9BB04D117F06F4B002EFE31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9BB04D117F06F4B002EFE31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9BB04D017F06F4B002EFE31 /* SilentPushDemo.app */,
+				D9BB04F117F06F4C002EFE31 /* SilentPushDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9BB04D217F06F4B002EFE31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9BB055B17F09740002EFE31 /* SystemConfiguration.framework */,
+				D9BB055917F09737002EFE31 /* StoreKit.framework */,
+				D9BB055717F09733002EFE31 /* Security.framework */,
+				D9BB055517F0972F002EFE31 /* QuartzCore.framework */,
+				D9BB055317F0972B002EFE31 /* MobileCoreServices.framework */,
+				D9BB055117F09727002EFE31 /* libz.1.1.3.dylib */,
+				D9BB054F17F09721002EFE31 /* CoreLocation.framework */,
+				D9BB054D17F09714002EFE31 /* CFNetwork.framework */,
+				D9BB054B17F0970E002EFE31 /* AudioToolbox.framework */,
+				D9BB04D317F06F4B002EFE31 /* Foundation.framework */,
+				D9BB04D517F06F4B002EFE31 /* CoreGraphics.framework */,
+				D9BB04D717F06F4C002EFE31 /* UIKit.framework */,
+				D9BB04F217F06F4C002EFE31 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9BB04D917F06F4C002EFE31 /* SilentPushDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D9BB04E217F06F4C002EFE31 /* SPDAppDelegate.h */,
+				D9BB04E317F06F4C002EFE31 /* SPDAppDelegate.m */,
+				D9BB04E517F06F4C002EFE31 /* Main.storyboard */,
+				D9BB04E817F06F4C002EFE31 /* SPDViewController.h */,
+				D9BB04E917F06F4C002EFE31 /* SPDViewController.m */,
+				D9BB04EB17F06F4C002EFE31 /* Images.xcassets */,
+				D9BB04DA17F06F4C002EFE31 /* Supporting Files */,
+			);
+			path = SilentPushDemo;
+			sourceTree = "<group>";
+		};
+		D9BB04DA17F06F4C002EFE31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9BB04DB17F06F4C002EFE31 /* SilentPushDemo-Info.plist */,
+				D9BB04DC17F06F4C002EFE31 /* InfoPlist.strings */,
+				D9BB04DF17F06F4C002EFE31 /* main.m */,
+				D9BB04E117F06F4C002EFE31 /* SilentPushDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9BB04CF17F06F4B002EFE31 /* SilentPushDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9BB050217F06F4C002EFE31 /* Build configuration list for PBXNativeTarget "SilentPushDemo" */;
+			buildPhases = (
+				D9BB04CC17F06F4B002EFE31 /* Sources */,
+				D9BB04CD17F06F4B002EFE31 /* Frameworks */,
+				D9BB04CE17F06F4B002EFE31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SilentPushDemo;
+			productName = SilentPushDemo;
+			productReference = D9BB04D017F06F4B002EFE31 /* SilentPushDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9BB04F017F06F4C002EFE31 /* SilentPushDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9BB050517F06F4C002EFE31 /* Build configuration list for PBXNativeTarget "SilentPushDemoTests" */;
+			buildPhases = (
+				D9BB04ED17F06F4C002EFE31 /* Sources */,
+				D9BB04EE17F06F4C002EFE31 /* Frameworks */,
+				D9BB04EF17F06F4C002EFE31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9BB04F717F06F4C002EFE31 /* PBXTargetDependency */,
+			);
+			name = SilentPushDemoTests;
+			productName = SilentPushDemoTests;
+			productReference = D9BB04F117F06F4C002EFE31 /* SilentPushDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9BB04C817F06F4B002EFE31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SPD;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Yahoo! JAPAN";
+				TargetAttributes = {
+					D9BB04CF17F06F4B002EFE31 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					D9BB04F017F06F4C002EFE31 = {
+						TestTargetID = D9BB04CF17F06F4B002EFE31;
+					};
+				};
+			};
+			buildConfigurationList = D9BB04CB17F06F4B002EFE31 /* Build configuration list for PBXProject "SilentPushDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9BB04C717F06F4B002EFE31;
+			productRefGroup = D9BB04D117F06F4B002EFE31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9BB04CF17F06F4B002EFE31 /* SilentPushDemo */,
+				D9BB04F017F06F4C002EFE31 /* SilentPushDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9BB04CE17F06F4B002EFE31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9BB04EC17F06F4C002EFE31 /* Images.xcassets in Resources */,
+				D9BB04DE17F06F4C002EFE31 /* InfoPlist.strings in Resources */,
+				D9BB04E717F06F4C002EFE31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9BB04EF17F06F4C002EFE31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9BB04CC17F06F4B002EFE31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9BB04E417F06F4C002EFE31 /* SPDAppDelegate.m in Sources */,
+				D9BB04E017F06F4C002EFE31 /* main.m in Sources */,
+				D9BB04EA17F06F4C002EFE31 /* SPDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9BB04ED17F06F4C002EFE31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9BB04F717F06F4C002EFE31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9BB04CF17F06F4B002EFE31 /* SilentPushDemo */;
+			targetProxy = D9BB04F617F06F4C002EFE31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9BB04DC17F06F4C002EFE31 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9BB04DD17F06F4C002EFE31 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D9BB04E517F06F4C002EFE31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9BB04E617F06F4C002EFE31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9BB050017F06F4C002EFE31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D9BB050117F06F4C002EFE31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9BB050317F06F4C002EFE31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: RYOSUKE HIRAMATSU (CX83Y44847)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: RYOSUKE HIRAMATSU (CX83Y44847)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/rhiramat/Documents/objc/SilentPushDemo,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SilentPushDemo/SilentPushDemo-Prefix.pch";
+				INFOPLIST_FILE = "SilentPushDemo/SilentPushDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6F0E48FC-47D9-4DDE-A790-0645FADBAD96";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D9BB050417F06F4C002EFE31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/rhiramat/Documents/objc/SilentPushDemo,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SilentPushDemo/SilentPushDemo-Prefix.pch";
+				INFOPLIST_FILE = "SilentPushDemo/SilentPushDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6F0E48FC-47D9-4DDE-A790-0645FADBAD96";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D9BB050617F06F4C002EFE31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SilentPushDemo.app/SilentPushDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SilentPushDemo/SilentPushDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SilentPushDemoTests/SilentPushDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D9BB050717F06F4C002EFE31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SilentPushDemo.app/SilentPushDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SilentPushDemo/SilentPushDemo-Prefix.pch";
+				INFOPLIST_FILE = "SilentPushDemoTests/SilentPushDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9BB04CB17F06F4B002EFE31 /* Build configuration list for PBXProject "SilentPushDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9BB050017F06F4C002EFE31 /* Debug */,
+				D9BB050117F06F4C002EFE31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9BB050217F06F4C002EFE31 /* Build configuration list for PBXNativeTarget "SilentPushDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9BB050317F06F4C002EFE31 /* Debug */,
+				D9BB050417F06F4C002EFE31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9BB050517F06F4C002EFE31 /* Build configuration list for PBXNativeTarget "SilentPushDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9BB050617F06F4C002EFE31 /* Debug */,
+				D9BB050717F06F4C002EFE31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9BB04C817F06F4B002EFE31 /* Project object */;
+}
